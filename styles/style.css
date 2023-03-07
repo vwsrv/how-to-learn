@@ -79,7 +79,6 @@
 .content__description {
   display: flex;
   justify-content: center;
-  align-content: stretch;
 }
 
 .two_columns {
@@ -128,7 +127,7 @@
   text-align: center;
   margin-top: 100px;
   padding: 0;
-  text-align: 1.15;
+  line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
   width: 60%;
@@ -139,7 +138,7 @@
   text-align: center;
   margin-top: 20px;
   width: 60%;
-  text-align: 34px;
+  line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
@@ -161,7 +160,7 @@
 .table__cell_heading {
   margin: 0;
   margin-bottom: 20px;
-  text-align: 1.15;
+  line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
 
@@ -170,7 +169,7 @@
 .table__cell_text {
   margin: 0;
   margin-bottom: 20px;
-  text-align: 1.2;
+  line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
@@ -190,7 +189,7 @@
   margin: auto;
   text-align: center;
   padding-top: 100px;
-  text-align: 1.15;
+  line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
 }
@@ -199,7 +198,7 @@
   display: block;
   text-align: center;
   margin-top: 70px;
-  text-align: 51px;
+  line-height: 51px;
   font-size: 36px;
   font-weight: normal;
 }
@@ -209,7 +208,7 @@
   right: 0;
   margin-right: 48px;
   height: 50%;
-  text-align: 51px;
+  line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   text-decoration: none;
@@ -284,7 +283,7 @@
 }
 
 .footer_author {
-  text-align: 25px;
+  line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   align-self: flex-end;
@@ -299,13 +298,13 @@
   margin: 0;
   padding: 0;
   padding-bottom: 20px;
-  text-align: 30px;
+  line-height: 30px;
   font-size: 18px;
   font-weight: 600;
 }
 
 .footer__column_links {
-  text-align: 30px;
+  line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   color: white;
