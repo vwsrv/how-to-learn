@@ -18,6 +18,7 @@
   max-height: 756px;
   background-color: #f2f2f2;
   position: relative;
+  overflow: hidden;
 }
 
 .header__title {
@@ -78,7 +79,19 @@
   right: 0;
   height: 568px;
   width: 568px;
+  animation: rotation 20s linear infinite reverse 0s;
 }
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
 /* =====CONTENT DESCRIPTION BLOCK==================================== */
 .description {
   display: flex;
@@ -128,8 +141,89 @@
 .two-columns__span-accent {
   font-weight: 600;
 }
+/* ==============TECHNIQUES==================================== */
+.techniques {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.cards {
+ display: flex;
+ flex-wrap: wrap;
+ margin: auto;
+ width: 920px;
+ text-align: center;
+}
+
+.cards__item {
+  margin-right: 100px;
+  padding: 0;
+  width: 235px;
+}
+
+.cards__item:nth-child(3) {
+  margin-right: 0;
+}
+
+.cards__image {
+ margin: 60px 40px 43px 40px;
+ width: 160px;
+ height: 160px;
+ border-radius: 50%;
+}
+
+.cards__title {
+ margin: 0;
+ padding: 0;
+ margin-bottom: 16px;
+ line-height: 1.15;
+ font-size: 24px;
+ font-weight: 600;
+}
+
+.cards__descriptrion {
+  margin: 0;
+  padding: 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+}
+/* ==============VIDEO==================================== */
+.video {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.iframes {
+  bottom: 0;
+  margin: auto;
+  padding-top: 50px;
+  margin-bottom: -50px;
+}
+
+.iframe {
+  margin-right: 20px;
+  width: 515px;
+  height: 316px;
+}
+
+/* ==============OAKLEY==================================== */
+.oakley{
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
 /* ==============DIGITS BLOCK==================================== */
 .digits {
+  height: 100%;
   padding-bottom: 100px;
 }
 
@@ -191,6 +285,7 @@
 /* ==============FEYNMAN BLOCK========================== */
 .feynman {
   min-height: 890px;
+  margin-bottom: 100px;
   background-image: url("../images/feynman.png");
   background-size: 867px 637px;
   background-repeat: no-repeat;
@@ -204,7 +299,6 @@
   padding: 0;
   max-width: 648px;
   text-align: center;
-  padding-top: 100px;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
@@ -231,6 +325,80 @@
   text-decoration: none;
   color: #2f80ed;
 }
+
+/* ================KHAN====================== */
+.khan {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.khan__container {
+  margin-bottom: 100px;
+}
+
+.author {
+  padding: 0;
+  margin: 0;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.title {
+  padding: 0;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.quote {
+  padding: 0;
+  margin-top: 50px;
+  margin-bottom: 36px;
+  max-width: 790px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.quote__author {
+  padding: 0;
+  margin-bottom: 10px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;  
+}
+
+.quote__author-subline {
+  padding: 0;
+  margin-bottom: 68px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal; 
+}
+
+.book__container {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.book-pic {
+  width: 620px;
+  height: 608px;
+  margin-right: 48px;
+}
+
+.buy__link {
+  padding: 0;
+  margin: 0;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  text-decoration: none;
+}
 /* ================KAUFMAN BLOCK====================== */
 .kaufman {
   position: relative;
@@ -250,6 +418,7 @@
   right: -210px;
   top: 0;
   z-index: -1;
+  animation: rotation 20s linear infinite 0s; 
 }
 
 .section-title_theme_dark {
