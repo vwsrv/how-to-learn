@@ -328,13 +328,14 @@
 
 /* ================KHAN====================== */
 .khan {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  background-color: #f2f2f2;
+  padding-top: 105px;
 }
 
 .khan__container {
-  margin-bottom: 100px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .author {
@@ -389,6 +390,8 @@
   width: 620px;
   height: 608px;
   margin-right: 48px;
+  object-fit: cover;
+  object-position: top;
 }
 
 .buy__link {
@@ -431,6 +434,29 @@
   margin-right: 0;
   margin-top: 80px;
 }
+/* ==============RESOURCES======================= */
+.resources {
+  margin-top: 100px;
+  margin-bottom: 217px;
+}
+
+.logo-zone {
+  display: flex;
+  margin-top: 80px;
+  width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.resources__logo {
+  margin: 0;
+  padding: 0;
+  width: 270px;
+  height: 38px;
+  object-fit: fill;
+}
+
+
 /* ==============FOOTER BLOCK======================= */
 .footer {
   display: flex;
