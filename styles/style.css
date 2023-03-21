@@ -61,6 +61,13 @@
 .header__link {
   text-decoration: none;
   color: #2f80ed;
+  transition: 0.2s;
+}
+
+.header__link:hover {
+  opacity: 0.8px;
+  text-shadow: 3px 3px 3px rgba(0,0,0, 0.2);
+  transition: ease-in 0.2s;
 }
 
 .header__main-illustration {
@@ -210,7 +217,13 @@
   margin-right: 20px;
   width: 515px;
   height: 316px;
+  transition: 0.2s;
 }
+.iframe:hover {
+  transform: scale(105%);
+  transition: ease-in 0.2s;
+}
+
 
 /* ==============OAKLEY==================================== */
 .oakley{
@@ -324,6 +337,13 @@
   font-weight: normal;
   text-decoration: none;
   color: #2f80ed;
+  transition: 0.2s;
+}
+
+.feynman__link:hover {
+  opacity: 0.8px;
+  text-shadow: 3px 3px 3px rgba(0,0,0, 0.2);
+  transition: ease-in 0.2s;
 }
 
 /* ================KHAN====================== */
@@ -364,7 +384,7 @@
   font-weight: normal;
 }
 
-.quote__author {
+.quote-author {
   padding: 0;
   margin-bottom: 10px;
   line-height: 1.15;
@@ -372,7 +392,7 @@
   font-weight: 600;  
 }
 
-.quote__author-subline {
+.quote-author-subline {
   padding: 0;
   margin-bottom: 68px;
   line-height: 1.15;
@@ -380,7 +400,7 @@
   font-weight: normal; 
 }
 
-.book__container {
+.book-container {
   display: flex;
   padding: 0;
   margin: 0;
@@ -394,15 +414,25 @@
   object-position: top;
 }
 
-.buy__link {
+.buy-link {
+  color: #2f80ed;
   padding: 0;
   margin: 0;
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
   text-decoration: none;
+  transition: 0.2s;
 }
+
+.buy-link:hover {
+  opacity: 0.8px;
+  text-shadow: 3px 3px 3px rgba(0,0,0, 0.2);
+  transition: ease-in 0.2s;
+}
+
 /* ================KAUFMAN BLOCK====================== */
+
 .kaufman {
   position: relative;
   padding-bottom: 90px;
@@ -454,6 +484,12 @@
   width: 270px;
   height: 38px;
   object-fit: fill;
+  transition: 0.5s;
+}
+
+.resources__logo:hover {
+  transform: scale(130%);
+  transition: ease-in-out 0.2s;
 }
 
 
@@ -525,6 +561,15 @@
   display: flex;
   color: white;
   text-decoration: none;
+  transition: 0.5s;
+}
+
+.footer__column-link:hover {
+  opacity: 0.8px;
+  background-color: #2f80ed;
+  border-radius: 15px;
+
+  transition: ease-in-out 0.5s;
 }
 
 .footer__social-icon {
