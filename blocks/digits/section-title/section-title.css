@@ -1,0 +1,9 @@
+.section-title {
+    margin: auto;
+    text-align: center;
+    padding: 0;
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: 600;
+    max-width: 60%;
+  }  

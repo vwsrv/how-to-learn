@@ -1,0 +1,14 @@
+.footer__column-link {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+  .footer__column-link:hover {
+    opacity: 0.8px;
+    background-color: #2f80ed;
+    border-radius: 15px;
+  
+    transition: ease-in-out 0.5s;
+  }
