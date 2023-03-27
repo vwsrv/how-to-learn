@@ -7,3 +7,6 @@
     }
   }
   
+  .rotation {
+    animation: rotation 20s linear infinite 0s;
+  }

@@ -3,15 +3,12 @@
     color: white;
     text-decoration: none;
     transition: 0.5s;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
   }
 
   .footer__column-link:hover {
     opacity: 0.8px;
     background-color: #2f80ed;
-    border-radius: 5px;
+    border-radius: 15px;
   
     transition: ease-in-out 0.5s;
   }

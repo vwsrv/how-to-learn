@@ -1,0 +1,12 @@
+.video__iframe {
+  margin-right: 20px;
+  width: 515px;
+  height: 316px;
+  transition: 0.2s;
+  border: 0;
+}
+
+.video__iframe:hover {
+  transform: scale(105%);
+  transition: ease-in 0.2s;
+}

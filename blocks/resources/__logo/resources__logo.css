@@ -7,7 +7,7 @@
     transition: 0.5s;
   }
 
-  .resources__logo:hover {
+.resources__logo:hover {
     transform: scale(130%);
     transition: ease-in-out 0.2s;
   }
