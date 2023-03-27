@@ -28,7 +28,7 @@
 /*video*/
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/iframes/iframes.css);
-@import url(../blocks/video/iframes/__iframe/iframes__iframe.css);
+@import url(../blocks/video/iframes/__iframe/video__iframe.css);
 /*oakley*/
 @import url(../blocks/oakley/oakley.css);
 /*feynman*/

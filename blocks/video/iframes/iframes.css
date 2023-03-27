@@ -4,15 +4,3 @@
     padding-top: 50px;
     margin-bottom: -50px;
   }
-
-#ytplayer {
-    margin-right: 20px;
-    width: 515px;
-    height: 316px;
-    transition: 0.2s;
-  }
-
-#ytplayer:hover {
-    transform: scale(105%);
-    transition: ease-in 0.2s;
-  }
