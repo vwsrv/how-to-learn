@@ -72,10 +72,11 @@
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
-@import url(../blocks/footer/__column/_content/_copyright/footer__content_copyright.css);
-@import url(../blocks/footer/__column/_content/_info/footer__content_info.css);
-@import url(../blocks/footer/__column/_content/_social/footer__content_social.css);
+@import url(../blocks/footer/__column/_content/_copyright/footer__column_content_copyright.css);
+@import url(../blocks/footer/__column/_content/_info/footer__column_content_info.css);
+@import url(../blocks/footer/__column/_content/_social/footer__column_content_social.css);
 
 
 
