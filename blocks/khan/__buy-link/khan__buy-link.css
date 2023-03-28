@@ -1,4 +1,4 @@
-.buy-link {
+.khan__buy-link {
     color: #2f80ed;
     padding: 0;
     margin: 0;
@@ -9,7 +9,7 @@
     transition: 0.2s;
   }
 
-  .buy-link:hover {
+  .khan__buy-link:hover {
     opacity: 0.8px;
     text-shadow: 3px 3px 3px rgba(0,0,0, 0.2);
     transition: ease-in 0.2s;
