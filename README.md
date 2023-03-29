@@ -211,7 +211,7 @@ header {
 
 Результат:
 ![OAKLEY](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/OAKLEY.png)
-```
+
 ## СЕКЦИЯ FEYNMAN
 
 ```css
