@@ -361,7 +361,7 @@ header {
 ...
 ```image
 Результат:
-![RESOURCES](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/RESOURCES.png)
+![FOOTER](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/footer.png)
 ```
 ## Документация, в соответствии с которой производилась верстка:
 - https://code.s3.yandex.net/web-developer/project-1/sprint-2-brief.pdf
