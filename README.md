@@ -67,7 +67,7 @@ header {
     text-shadow: 3px 3px 3px rgba(0,0,0, 0.2);
     transition: ease-in 0.2s;
 }
-
+```
 Результат:
 ![HEADER](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/HEADER.png)
 
@@ -89,7 +89,7 @@ header {
     margin-top: 100px;
     width: 80%;
   }
-
+```
 Результат:
 ![HEADER](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/TWO-COLUMNS.png)
 
@@ -145,7 +145,7 @@ header {
   .cards__item:nth-child(3) {
     margin-right: 0;
 }
-
+```
 Результат:
 ![TECHNIQUES](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/TECHIQUES.png)
 
@@ -175,7 +175,7 @@ header {
   transform: scale(105%);
   transition: ease-in 0.2s;
 }
-
+```
 Результат:
 ![VIDEO](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/VIDEO.png)
 
@@ -193,8 +193,7 @@ header {
 
 Результат:
 ![OAKLEY](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/OAKLEY.png)
-
-
+```
 ## СЕКЦИЯ FEYNMAN
 
 ```css
@@ -214,7 +213,7 @@ header {
     position: relative;
   }
 /*В рамках этой секции были заданы собственные элементы: feynman-title, feynman-subtitle, feynman__link */
-
+```
 Результат:
 ![FEYNMAN](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/feynman.png)
 
@@ -241,7 +240,7 @@ header {
     margin-right: 0;
     margin-top: 80px;
 }
-  
+```  
 Результат:
 ![DIGITS](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/DIGITS.png)
 
@@ -264,7 +263,7 @@ header {
   object-fit: cover;
   object-position: top;
 }
-  
+```
 Результат:
 ![KHAN](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/khan.png)
 
@@ -296,7 +295,7 @@ header {
     z-index: -1;
 }
 /*В текущей секции были переиспользованы элементы блока table и модификатор его элемента _theme_dark*/
-
+```
 Результат:
 ![KAUFMAN](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/KAUFMAN.png)
 
@@ -324,10 +323,9 @@ header {
     transform: scale(130%);
     transition: ease-in-out 0.2s;
 }
-
+```
 Результат:
 ![RESOURCES](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/RESOURCES.png)
-
 
 ## СЕКЦИЯ FOOTER
 
@@ -352,7 +350,7 @@ header {
                 <img src="./images/tiktok_color_white.svg" alt="Тикток" class="footer__social-icon">TikTok</a>
             </nav>
 ...
-
+```
 Результат:
 ![FOOTER](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/footer.png)
 
