@@ -59,7 +59,7 @@ PS
 
 ```
 [Результат:]
-![HEADER](https://github.com/vwsrv/how-to-learn/raw/main/./images/README-images/HEADER.png)
+![HEADER](https://github.com/vwsrv/how-to-learn/raw/main/../images/README-images/HEADER.png)
 ```
 
 ## TECHNIQUES
