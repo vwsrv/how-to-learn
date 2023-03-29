@@ -15,14 +15,14 @@
 ### Структура проекта представлена следующим образом:
 - header
 - content, который содержит:
-1. description
-2. techniques
-3. video
-4. oakley
-5. feynman
-6. digits
-7. kaufman
-8. resources
+*1. description*
+*2. techniques*
+*3. video*
+*4. oakley*
+*5. feynman*
+*6. digits*
+*7. kaufman*
+*8. resources*
 - footer
 
 
