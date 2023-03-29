@@ -9,8 +9,8 @@
     transition: 0.2s;
   }
 
-  .khan__buy-link:hover {
-    opacity: 0.8px;
-    text-shadow: 3px 3px 3px rgba(0,0,0, 0.2);
-    transition: ease-in 0.2s;
-  }
+.khan__buy-link:hover {
+  opacity: 0.8px;
+  text-shadow: 3px 3px 3px rgba(0,0,0, 0.2);
+  transition: ease-in 0.2s;
+}

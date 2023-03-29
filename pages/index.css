@@ -15,18 +15,20 @@
 @import url(../blocks/logo/_place/_header/logo_place_header.css);
 /*DESCRIPTION*/
 @import url(../blocks/description/description.css);
-@import url(../blocks/description/two-columns/two-columns.css);
-@import url(../blocks/description/two-columns/__main-text/two-columns__main-text.css);
-@import url(../blocks/description/two-columns/__brief/two-columns__brief.css);
-@import url(../blocks/description/two-columns/__paragraph/two-columns__paragraph.css);
-@import url(../blocks/description/two-columns/__span-accent/two-columns__span-accent.css);
-/*techniques*/
+/*TWO-COLUMNS*/
+@import url(../blocks/two-columns/two-columns.css);
+@import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
+@import url(../blocks/two-columns/__brief/two-columns__brief.css);
+@import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
+/*TECHNIQUES*/
 @import url(../blocks/techniques/techniques.css);
-@import url(../blocks/techniques/cards/cards.css);
-@import url(../blocks/techniques/cards/__descriptrion/cards__descriptrion.css);
-@import url(../blocks/techniques/cards/__image/cards__image.css);
-@import url(../blocks/techniques/cards/__item/cards__item.css);
-@import url(../blocks/techniques/cards/__title/cards__title.css);
+/*CARDS*/
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__descriptrion/cards__descriptrion.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__title/cards__title.css);
 /*video*/
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframe/video__iframe.css);
@@ -38,14 +40,17 @@
 @import url(../blocks/feynman/__title/feynman__title.css);
 @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(../blocks/feynman/__link/feynman__link.css);
-/*digits*/
+/*DIGITS*/
 @import url(../blocks/digits/digits.css);
-@import url(../blocks/digits/section-subtitle/section-subtitle.css);
-@import url(../blocks/digits/section-title/section-title.css);
-@import url(../blocks/digits/table/table.css);
-@import url(../blocks/digits/table/__text/table__text.css);
-@import url(../blocks/digits/table/__heading/table__heading.css);
-@import url(../blocks/digits/table/__cell/table__cell.css);
+/*SECTION-TITLE*/
+@import url(../blocks/section-subtitle/section-subtitle.css);
+/*SECTION-SUBTITLE*/
+@import url(../blocks/section-title/section-title.css);
+/*TABLE*/
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__text/table__text.css);
+@import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__cell/table__cell.css);
 /*khan*/
 @import url(../blocks/khan/khan.css);
 @import url(../blocks/khan/__book-container/khan__book-container.css);
