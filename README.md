@@ -14,7 +14,7 @@
 ## HTML
 ### Структура проекта представлена следующим образом:
 - header
-- content
+- content, в который входят
 1. description
 2. techniques
 3. video
