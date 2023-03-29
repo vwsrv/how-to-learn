@@ -1,12 +1,13 @@
-# ПЕРВЫЙ ПРОЕКТ В РАМКАХ ОБУЧЕНИЯ НА ПЛАТФОРМЕ Яндекс.Практикум
+# ПРОЕКТ "НАУЧИТЬСЯ УЧИТЬСЯ"
+## Яндекс.Практикум
 ## Текущий проект выполнялся в два этапа:
-> Спринт 1. (flexbox, позиционирование, БЭМ: структура)
-> Спринт 2. (HTML: видео, iframe, embed, API, БЭМ: пути к файлам)
+1. Спринт 1. (flexbox, позиционирование, БЭМ: структура)
+2. Спринт 2. (HTML: видео, iframe, embed, API, БЭМ: пути к файлам)
 
 `!NB!` Текущий проект выполнен без кроссбраузерной адаптации.
 
-1. Каждый "шаг" в написании кода фиксировался в комитах.
-2. Все исправления в рамках код-ревью зафискированы.
+> Каждый "шаг" в написании кода фиксировался в комитах.
+> Все исправления в рамках код-ревью зафискированы.
 
 ## СЕКЦИЯ PAGE
 ```css
@@ -66,10 +67,9 @@ header {
     text-shadow: 3px 3px 3px rgba(0,0,0, 0.2);
     transition: ease-in 0.2s;
 }
-```image
+
 Результат:
 ![HEADER](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/HEADER.png)
-```
 
 ## СЕКЦИЯ DESCRIPTION
 ```css
@@ -89,10 +89,10 @@ header {
     margin-top: 100px;
     width: 80%;
   }
-```image
+
 Результат:
 ![HEADER](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/TWO-COLUMNS.png)
-```
+
 
 ## СЕКЦИЯ TECHNIQUES
 
@@ -145,10 +145,10 @@ header {
   .cards__item:nth-child(3) {
     margin-right: 0;
 }
-```image
+
 Результат:
 ![TECHNIQUES](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/TECHIQUES.png)
-```
+
 
 ## СЕКЦИЯ VIDEO
 
@@ -161,7 +161,6 @@ header {
   }
 
 /*В рамках этой секции были переиспользованы блоки: section-title, section-subtitle (см. выше)*/
-
 /*Элементы блока __iframe анимированы при наведении на них указателя мыши*/
 ```css
 .video__iframe {
@@ -176,15 +175,14 @@ header {
   transform: scale(105%);
   transition: ease-in 0.2s;
 }
-```image
+
 Результат:
 ![VIDEO](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/VIDEO.png)
-```
 
 ## СЕКЦИЯ OAKLEY
 
 ```css
-/*Для блока были заданы следующие свойства*/
+/*Для секции были заданы следующие свойства*/
 .oakley{
     padding-top: 60px;
     background-color: #f2f2f2;
@@ -192,15 +190,15 @@ header {
     justify-content: center;
 }
 /*В рамках этой секции были переиспользованы блоки two-columns (см. выше)*/
-```image
+
 Результат:
 ![OAKLEY](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/OAKLEY.png)
-```
+
 
 ## СЕКЦИЯ FEYNMAN
 
 ```css
-/*Для блока были заданы следующие свойства. Изображение является фоновым*/
+/*Для секции были заданы следующие свойства. Изображение является фоновым*/
 /*Для того, чтобы feynman-subtitle, feynman__link были спозиционированы на одном уровне, блоку*/
 /*feynman был указан внутренний верхний отступ, а у блока two-columns был убран нижний отступ*/
 .feynman {  
@@ -217,15 +215,13 @@ header {
   }
 /*В рамках этой секции были заданы собственные элементы: feynman-title, feynman-subtitle, feynman__link */
 
-```image
 Результат:
 ![FEYNMAN](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/feynman.png)
-```
 
 ## СЕКЦИЯ DIGITS
 
 ```css
-/*Для блока были заданы следующие свойства.*/
+/*Для секции были заданы следующие свойства.*/
 
 .digits {
     height: 100%;
@@ -246,14 +242,13 @@ header {
     margin-top: 80px;
 }
   
-```image
 Результат:
 ![DIGITS](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/DIGITS.png)
-```
+
 ## СЕКЦИЯ KHAN
 
 ```css
-/*Для блока были заданы следующие свойства.*/
+/*Для секции были заданы следующие свойства.*/
 
 .khan {
     background-color: #f2f2f2;
@@ -270,14 +265,13 @@ header {
   object-position: top;
 }
   
-```image
 Результат:
 ![KHAN](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/khan.png)
-```
+
 ## СЕКЦИЯ KAUFMAN
 
 ```css
-/*Для блока были заданы следующие свойства.*/
+/*Для секции были заданы следующие свойства.*/
 
 .kaufman {
     position: relative;
@@ -289,7 +283,7 @@ header {
     z-index: 1;
   }
 
-/*Элемент блока __triangle анимирован при помощи keyframes "rotation" (см. выше)*/
+/*Элемент секции __triangle анимирован при помощи keyframes "rotation" (см. выше)*/
 /*Для того, чтобы элемент __triangle корректно отображался в блоке kaufman, ему был присвоен отрицательный z-index*/
 .kaufman__triangle {
     width: 877px;
@@ -302,14 +296,14 @@ header {
     z-index: -1;
 }
 /*В текущей секции были переиспользованы элементы блока table и модификатор его элемента _theme_dark*/
-```image
+
 Результат:
 ![KAUFMAN](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/KAUFMAN.png)
-```
+
 ## СЕКЦИЯ RESOURCES
 
 ```css
-/*Для блока были заданы следующие свойства.*/
+/*Для секции были заданы следующие свойства.*/
 .resources {
     padding-top: 100px;
     margin-bottom: 217px;
@@ -331,10 +325,9 @@ header {
     transition: ease-in-out 0.2s;
 }
 
-```image
 Результат:
 ![RESOURCES](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/RESOURCES.png)
-```
+
 
 ## СЕКЦИЯ FOOTER
 
@@ -359,10 +352,10 @@ header {
                 <img src="./images/tiktok_color_white.svg" alt="Тикток" class="footer__social-icon">TikTok</a>
             </nav>
 ...
-```image
+
 Результат:
 ![FOOTER](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/footer.png)
-```
+
 ## Документация, в соответствии с которой производилась верстка:
 - https://code.s3.yandex.net/web-developer/project-1/sprint-2-brief.pdf
 - https://code.s3.yandex.net/web-developer/project-1/sprint-1-brief.pdf
