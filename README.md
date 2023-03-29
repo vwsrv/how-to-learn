@@ -11,7 +11,23 @@
 
 `PS` Возможно, в процессе описания некоторых свойств и терминов CSS и HTML я буду путаться, не судите строго.
 
-## СЕКЦИЯ PAGE
+## HTML
+### Структура проекта представлена следующим образом:
+- header
+- content
+1. description
+2. techniques
+3. video
+4. oakley
+5. feynman
+6. digits
+7. kaufman
+8. resources
+- footer
+
+
+## CSS
+### СЕКЦИЯ PAGE
 ```css
 /*были заданы следующие параметры страницы*/
 .page {
