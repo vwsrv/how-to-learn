@@ -8,7 +8,7 @@
 1. Каждый "шаг" в написании кода фиксировался в комитах.
 2. Все исправления в рамках код-ревью зафискированы.
 
-## PAGE
+## СЕКЦИЯ PAGE
 ```css
 /*были заданы следующие параметры страницы*/
 .page {
@@ -18,13 +18,13 @@
     font-family: "Helvetica Neue", Arial, sans-serif;
   }
 ```
-## HEADER
+## СЕКЦИЯ HEADER
 ```css
 /*Использовалось flex позиционирование элементов*/
 header {
     display: flex;
 }
-/*Для стиллизации элементов были использованы keyframes*/
+/*Для анимации элемента __square-pic были использованы свойства keyframes*/
 @keyframes rotation {
     0% {
       transform: rotate(0deg);
@@ -53,13 +53,48 @@ header {
     bottom: 0;
     right: 0;
 }
-```
 
+/*Элемент header - __link анимирован при наведении на него указателя мыши*/
+.header__link {
+    text-decoration: none;
+    color: #2f80ed;
+    transition: 0.2s;
+  }
+
+.header__link:hover {
+    opacity: 0.8px;
+    text-shadow: 3px 3px 3px rgba(0,0,0, 0.2);
+    transition: ease-in 0.2s;
+}
+```image
 Результат:
 ![HEADER](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/HEADER.png)
+```
 
+## СЕКЦИЯ DESCRIPTION
+```css
+/*Использовалось flex позиционирование элементов*/
+.description {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+/*С учетом методологии БЭМ, с целью последующего переиспользования, была осуществлена стиллизация элементов two-columns*/
+/*Для самого блока были заданы следующие параметры (подробнее см. в репозитории*/
+.two-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 80%;
+  }
+```image
+Результат:
+![HEADER](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/TWO-COLUMNS.png)
+```
 
-## TECHNIQUES
+## СЕКЦИЯ TECHNIQUES
 
 ```css
 /*Для этой секции были определены следующие параметры*/
@@ -109,5 +144,225 @@ header {
   
   .cards__item:nth-child(3) {
     margin-right: 0;
-  }
+}
+```image
+Результат:
+![TECHNIQUES](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/TECHIQUES.png)
 ```
+
+## СЕКЦИЯ VIDEO
+
+```css
+/*Для позиционирования использовались свойства flexbox*/
+.video {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  }
+
+/*В рамках этой секции были переиспользованы блоки: section-title, section-subtitle (см. выше)*/
+
+/*Элементы блока __iframe анимированы при наведении на них указателя мыши*/
+```css
+.video__iframe {
+  margin-right: 20px;
+  width: 515px;
+  height: 316px;
+  transition: 0.2s;
+  border: 0;
+}
+
+.video__iframe:hover {
+  transform: scale(105%);
+  transition: ease-in 0.2s;
+}
+```image
+Результат:
+![VIDEO](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/VIDEO.png)
+```
+
+## СЕКЦИЯ OAKLEY
+
+```css
+/*Для блока были заданы следующие свойства*/
+.oakley{
+    padding-top: 60px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+}
+/*В рамках этой секции были переиспользованы блоки two-columns (см. выше)*/
+```image
+Результат:
+![OAKLEY](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/OAKLEY.png)
+```
+
+## СЕКЦИЯ FEYNMAN
+
+```css
+/*Для блока были заданы следующие свойства. Изображение является фоновым*/
+/*Для того, чтобы feynman-subtitle, feynman__link были спозиционированы на одном уровне, блоку*/
+/*feynman был указан внутренний верхний отступ, а у блока two-columns был убран нижний отступ*/
+.feynman {  
+    padding-top: 98px;
+    min-height: 890px;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+    background-image: url("../../images/feynman.png");
+    background-size: 867px 637px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-color: #f2f2f2;
+    position: relative;
+  }
+/*В рамках этой секции были заданы собственные элементы: feynman-title, feynman-subtitle, feynman__link */
+
+```image
+Результат:
+![FEYNMAN](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/feynman.png)
+```
+
+## СЕКЦИЯ DIGITS
+
+```css
+/*Для блока были заданы следующие свойства.*/
+
+.digits {
+    height: 100%;
+    padding-bottom: 100px;
+  }
+
+/*В рамках этой секции, с учетом методологии БЭМ были использованы элементы блока table*/
+/*У элементу __cell также был присвоен модификатор _theme для последующего переиспользования в блоке kaufman*/
+.table__cell {
+    margin-top: 60px;
+    width: 250px;
+}
+
+.table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    margin-right: 0;
+    margin-top: 80px;
+}
+  
+```image
+Результат:
+![DIGITS](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/DIGITS.png)
+```
+## СЕКЦИЯ KHAN
+
+```css
+/*Для блока были заданы следующие свойства.*/
+
+.khan {
+    background-color: #f2f2f2;
+    padding-top: 105px;
+  }
+
+/*Первоначально с элементом __book-pic возникали проблемы, картинка была растянута по ширине*/
+/*Указанная выше проблема решилась свойствами object-fit и object-position*/
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+  margin-right: 48px;
+  object-fit: cover;
+  object-position: top;
+}
+  
+```image
+Результат:
+![KHAN](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/khan.png)
+```
+## СЕКЦИЯ KAUFMAN
+
+```css
+/*Для блока были заданы следующие свойства.*/
+
+.kaufman {
+    position: relative;
+    padding-bottom: 90px;
+    padding-top: 90px;
+    background-color: #1f1f1f;
+    color: white;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+/*Элемент блока __triangle анимирован при помощи keyframes "rotation" (см. выше)*/
+/*Для того, чтобы элемент __triangle корректно отображался в блоке kaufman, ему был присвоен отрицательный z-index*/
+.kaufman__triangle {
+    width: 877px;
+    height: 877px;
+    position: absolute;
+    background-image: url("../../../images/kaufman-triangle.svg");
+    background-size: cover;
+    right: -210px;
+    top: 0;
+    z-index: -1;
+}
+/*В текущей секции были переиспользованы элементы блока table и модификатор его элемента _theme_dark*/
+```image
+Результат:
+![KAUFMAN](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/KAUFMAN.png)
+```
+## СЕКЦИЯ RESOURCES
+
+```css
+/*Для блока были заданы следующие свойства.*/
+.resources {
+    padding-top: 100px;
+    margin-bottom: 217px;
+}  
+
+/*Элемент блока resources: __logo были анимирован при помощи свойств CSS*/
+/*__logo*/
+.resources__logo {
+    margin: 0;
+    padding: 0;
+    width: 270px;
+    height: 38px;
+    object-fit: fill;
+    transition: 0.5s;
+  }
+
+.resources__logo:hover {
+    transform: scale(130%);
+    transition: ease-in-out 0.2s;
+}
+
+```image
+Результат:
+![RESOURCES](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/RESOURCES.png)
+```
+
+## СЕКЦИЯ FOOTER
+
+```css
+/*Для секции были заданы следующие свойства.*/
+.footer {
+    display: flex;
+    min-height: 350px;
+    width: 100%;
+    background-color: #1f1f1f;
+    color: white;
+}
+/*Элемент блока footer: __social-icon является частью ссылки, при взаимодействии с которым происходит переход на сторонний ресурс*/
+```html 
+...
+ <nav class="footer__column-links">
+              <a href="#" class="footer__column-link">
+                <img src="./images/youtube_color_white.svg" alt="Ютуб" class="footer__social-icon">YouTube</a>
+              <a href="#" class="footer__column-link">
+                <img src="./images/vk_color_white.svg" alt="ВК" class="footer__social-icon">Вконтакте</a>
+              <a href="#" class="footer__column-link">
+                <img src="./images/tiktok_color_white.svg" alt="Тикток" class="footer__social-icon">TikTok</a>
+            </nav>
+...
+```image
+Результат:
+![RESOURCES](https://github.com/vwsrv/how-to-learn/blob/main/images/README-images/RESOURCES.png)
+```
+## Документация, в соответствии с которой производилась верстка:
+- https://code.s3.yandex.net/web-developer/project-1/sprint-2-brief.pdf
+- https://code.s3.yandex.net/web-developer/project-1/sprint-1-brief.pdf
