@@ -51,6 +51,7 @@
 @import url(../blocks/table/__text/table__text.css);
 @import url(../blocks/table/__heading/table__heading.css);
 @import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
 /*khan*/
 @import url(../blocks/khan/khan.css);
 @import url(../blocks/khan/__book-container/khan__book-container.css);
@@ -62,7 +63,6 @@
 @import url(../blocks/khan/__quote-author/khan__quote-author.css);
 @import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
 @import url(../blocks/khan/__title/khan__title.css);
-@import url(../blocks/digits/table/__cell/_theme/table__cell_theme_dark.css);
 /*kaufman*/
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
